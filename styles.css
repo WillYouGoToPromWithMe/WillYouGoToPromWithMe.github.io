@@ -1,3 +1,147 @@
 body {
-	background-color: red;
+	background-color: #f2eaed;
+	margin: 0;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+/**** Header***/
+header {
+	width: 100%;
+	background-color: #e06c83;
+}
+
+header h1 {
+	font-family: 'Lobster Two';
+	text-align: center;
+	font-size: 3em;
+	color: #f5c74b;
+	padding-top: .1em;
+	padding-bottom: .1em;
+}
+
+/***Images ***/
+img {
+	width: 130px;
+	border-radius: 8px;
+	position: absolute;
+}
+
+/****body of heart ****/
+#img-1 {
+	top: 270px;
+	left: 910px;
+	transform: rotate(45deg);
+}
+
+#img-2 {
+	top: 270px;
+	left: 810px;
+	transform: rotate(-45deg);
+}
+
+#img-3 {
+	top: 670px;
+	left: 845px;
+	transform: rotate(-45deg);
+}
+#img-4 {
+	top: 670px;
+	left: 885px;
+	transform: rotate(45deg);
+}
+
+#img-5 {
+	top: 470px;
+	left: 1110px;
+	transform: rotate(45deg);
+}
+
+#img-6 {
+	top: 470px;
+	left: 810px;
+	transform: rotate(45deg);
+}
+
+#img-7 {
+	top: 470px;
+	left: 610px;
+	transform: rotate(-45deg);
+}
+
+#img-8 {
+	top: 470px;
+	left: 1010px;
+	transform: rotate(-45deg);
+}
+
+#img-9 {
+	top: 330px;
+	left: 710px;
+	transform: rotate(45deg);
+}
+
+#img-10 {
+	top: 330px;
+	left: 1010px;
+	transform: rotate(-45deg);
+}
+
+#img-11 {
+	top: 370px;
+	left: 870px;
+	transform: rotate(-45deg);
+}
+
+#img-12 {
+	top: 320px;
+	left: 650px;
+	transform: rotate(10deg);
+}
+
+#img-13 {
+	top: 470px;
+	left: 910px;
+	transform: rotate(10deg);
+}
+
+/****Left circle of heart***/
+
+#img-14 {
+	top: 200px;
+	left: 710px;
+	transform: rotate(-70deg);
+}
+
+#img-15 {
+	top: 210px;
+	left: 610px;
+	transform: rotate(-20deg);
+}
+
+#img-16 {
+	top: 240px;
+	left: 570px;
+	transform: rotate(-50deg);
+}
+
+#img-17 {
+	top: 290px;
+	left: 520px;
+	transform: rotate(-80deg);
+}
+
+#img-18 {
+	top: 350px;
+	left: 520px;
+	transform: rotate(-135deg);
+}
+
+#img-19 {
+	top: 470px;
+	left: 750px;
+	transform: rotate(-45deg);
 }
