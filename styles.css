@@ -242,3 +242,35 @@ img {
 	transform: rotate(-15deg);
 	width: 400px;
 }
+
+#img-35 {
+	top: 100px;
+	left: 1300px;
+	transform: rotate(15deg);
+}
+
+#img-36 {
+	top: 600px;
+	left: 1300px;
+	transform: rotate(-35deg);
+	width: 200px;
+}
+
+#img-37 {
+	top: 100px;
+	left: 1600px;
+	transform: rotate(-5deg);
+	width: 170px;
+}
+
+#img-38 {
+	top: 100px;
+	left: 400px;
+	transform: rotate(5deg);
+}
+
+#img-39 {
+	top: 100px;
+	left: 100px;
+	transform: rotate(-10deg);
+}
