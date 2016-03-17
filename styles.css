@@ -1,11 +1,12 @@
 body {
 	background-color: #f2eaed;
 	margin: 0;
+	font-family: 'Lobster Two';
 }
-
-#wrapper {
-	height: 100%;
-	width: 100%;
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 /**** Header***/
@@ -23,6 +24,11 @@ header h1 {
 	padding-bottom: .1em;
 }
 
+
+/*** heart container ***/
+.heartContainer {
+	height: 1650px;
+}
 /***Images ***/
 img {
 	width: 130px;
@@ -273,4 +279,36 @@ img {
 	top: 100px;
 	left: 100px;
 	transform: rotate(-10deg);
+}
+
+/***love Box***/
+#LoveBox {
+	position: absolute;
+	top: 910px;
+	left: 620px;
+	width: 600px;
+	background-color: #e7a9b1;
+	border-radius: 4px;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+p {
+	font-size: 18px;
+}
+
+/**** footer ***/
+footer {
+	background-color: #e06c83;
+	width: 100%;
+	height: 50px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
 }
