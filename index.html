@@ -6,6 +6,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script>
 			$(document).ready(function(){
+				var music = document.getElementById("music")
+				music.volume = 0.2;
+				music.autoplay = true;
+				music.loop = true;
+				
 				var $lastIdName, $lastPic;
 				$("img").click(function(){
 					$($lastPic).removeAttr('style');
@@ -14,7 +19,7 @@
 					$lastIdName = $(this).attr('id');
 					$(this).removeAttr('id');
 					$(this).animate({left: '760px'});
-					$(this).animate({top: '1030px'});
+					$(this).animate({top: '1010px'});
 					$(this).css("width",'400px');
 					$(this).css("transform",'rotate(0deg)');
 				});
@@ -27,6 +32,14 @@
 		<header class="row">
 			<h1>Will You Go To Prom With Me?</h1>
 		</header>
+		<audio controls id="music">
+			<source src = "resources/background song.mp3">
+		</audio>
+		<div class="buttonContainer">
+			<button type="button"> YES </button>
+			<p> Or... </p>
+			<button type="button"> YES </button>
+		</div>
 		<div class="row heartContainer">
 			<img src="resources\Around we go.jpg " id="img-1"/>
 			<img src="resources\bag boy.jpg " id="img-2"/>
@@ -72,7 +85,7 @@
 			<p> I love you Brittany. What do you say we go to Prom? PS: Click the Images. I think you'll enjoy what you find. :) </p>
 		</div>
 		<footer>
-			<p> This was a lot of fun to make. I actually want to make a collage of some sort later because it was that much fun. I had a lot of good memories doing this all. I hope you enjoyed it and remember this. "Stormicales always loves you! :)"</p>
+			<p> This was a lot of fun to make. I actually want to make a collage of some sort later because it was that much fun. I had a lot of good memories doing this all. I hope you enjoyed it and remember this. "Stormicales always loves you! :)" PS: Whoever said love wasn't perfect hasn't met you!</p>
 		</footer>
 	</body>
 </html>

@@ -34,6 +34,7 @@ img {
 	width: 130px;
 	border-radius: 8px;
 	position: absolute;
+	
 }
 
 /****body of heart ****/
@@ -223,7 +224,7 @@ img {
 /***** Outside the heart ****/
 #img-31 {
 	top: 600px;
-	left: 1700px;
+	left: 1650px;
 	transform: rotate(5deg);
 	width: 200px;
 }
@@ -285,7 +286,7 @@ img {
 #LoveBox {
 	position: absolute;
 	top: 910px;
-	left: 620px;
+	left: 640px;
 	width: 600px;
 	background-color: #e7a9b1;
 	border-radius: 4px;
@@ -298,7 +299,41 @@ img {
 p {
 	font-size: 18px;
 }
+/***Button***/
+.buttonContainer {
+	position: absolute;
+	left: 830px;
+	top: 150px;
+}
+button {
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	background-color: #e7c7cc;
+	border: none;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 8px;
+	font-family: 'Lobster Two';
+}
 
+button:hover{
+	background-color: #e06c83;
+	color: #f5c74b;;
+}
+
+div p {
+	float: left;
+}
+
+/****Music*****/
+#music {
+	position: absolute;
+	left: 820px;
+	top: 1730px;
+}
 /**** footer ***/
 footer {
 	background-color: #e06c83;
