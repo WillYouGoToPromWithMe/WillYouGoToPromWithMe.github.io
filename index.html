@@ -3,7 +3,7 @@
 	<head>
 		<title>Will You Go to Prom With Me?</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script>
 			$(document).ready(function(){
 				var music = document.getElementById("music")
@@ -18,10 +18,144 @@
 					$lastPic = $(this);
 					$lastIdName = $(this).attr('id');
 					$(this).removeAttr('id');
-					$(this).animate({left: '760px'});
-					$(this).animate({top: '1010px'});
+					$(this).css('left', '760px');
+					$(this).animate({top: '1025px'});
 					$(this).css("width",'400px');
 					$(this).css("transform",'rotate(0deg)');
+					$('#LoveBox').empty();
+					if($lastIdName === 'img-1') {
+						document.getElementById('LoveBox').innerHTML = "<p>The lovable and adorable stories are going to go here. This is currently a work in progress. </p>";
+					}
+					else if($lastIdName === 'img-2') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-3') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-4') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-5') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-6') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-7') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-8') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-9') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-10') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-11') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-12') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-13') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-14') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-15') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-16') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-17') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-18') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-19') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-20') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-21') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-22') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-23') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-24') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-25') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-26') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-27') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-28') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-29') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-30') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-31') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-32') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-33') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-34') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-35') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-36') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-37') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else if($lastIdName === 'img-38') {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+					else {
+						document.getElementById('LoveBox').innerHTML = "Test Data, pleaese ignore";
+					}
+				});
+				
+				$('button').click(function(){
+					$('#gif-1').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-2').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-3').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-4').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-5').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-6').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-7').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-8').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-9').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-10').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-11').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-12').css('visibility','visible').delay(10000).hide('explode');
+					$('#gif-13').css('visibility','visible').delay(10000).hide('explode');
 				});
 			});
 		</script>
@@ -80,6 +214,20 @@
 			<img src="resources\Star Wars.jpg " id="img-37"/>
 			<img src="resources\Summer.jpg " id="img-38"/> 
 			<img src="resources\New Years.jpg " id ="img-39"/>
+			
+			<img src="resources\zcat.gif " id="gif-1"/>
+			<img src="resources\zCharlieBrown.gif " id="gif-2"/>
+			<img src="resources\zCrazy.gif" id="gif-3"/>
+			<img src="resources\zDrake.gif " id="gif-4"/>
+			<img src="resources\zElmo.gif " id="gif-5"/>
+			<img src="resources\zHappy.gif " id="gif-6"/>
+			<img src="resources\zJamesTheo.gif " id="gif-7"/>
+			<img src="resources\zObama.gif " id="gif-8"/>
+			<img src="resources\zOffice.gif " id="gif-9"/>
+			<img src="resources\zOfficeLove.gif " id="gif-10"/>
+			<img src="resources\zParkAndR.gif " id="gif-11"/>
+			<img src="resources\zWillF.gif " id="gif-12"/>
+			<img src="resources\zBieber.gif " id="gif-13"/>
 		</div>
 		<div id="LoveBox">
 			<p> I love you Brittany. What do you say we go to Prom? PS: Click the Images. I think you'll enjoy what you find. :) </p>

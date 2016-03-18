@@ -282,6 +282,91 @@ img {
 	transform: rotate(-10deg);
 }
 
+/***gifs***/
+img[id*="gif-"] {
+	visibility: hidden;
+}
+
+#gif-1 {
+	left: 600px;
+	top: 100px;
+	transform: rotate(-10deg);
+	width: 100px;
+}
+
+#gif-2 {
+	left: 600px;
+	top: 700px;
+	transform: rotate(15deg);
+}
+
+#gif-3 {
+	left: 500px;
+	top: 600px;
+	transform: rotate(30deg);
+}
+
+#gif-4 {
+	left: 1050px;
+	top: 100px;
+	transform: rotate(5deg);
+}
+
+#gif-5 {
+	left: 1100px;
+	top: 750px;
+	transform: rotate(-5deg);
+	width: 175px;
+}
+
+#gif-6 {
+	left: 1350px;
+	top: 500px;
+	transform: rotate(-5deg);
+}
+
+#gif-7 {
+	left: 1750px;
+	top: 400px;
+	transform: rotate(10deg);
+}
+
+#gif-8 {
+	left: 1750px;
+	top: 275px;
+	transform: rotate(-15deg);
+}
+
+#gif-9 {
+	left: 50px;
+	top: 375px;
+	transform: rotate(-15deg);
+}
+
+#gif-10 {
+	left: 25px;
+	top: 500px;
+	transform: rotate(55deg);
+}
+
+#gif-11 {
+	left: 240px;
+	top: 125px;
+	transform: rotate(2deg);
+}
+
+#gif-12 {
+	left: 1450px;
+	top: 175px;
+	transform: rotate(2deg);
+}
+
+#gif-13 {
+	left: 1px;
+	top: 225px;
+	transform: rotate(-110deg);
+}
+
 /***love Box***/
 #LoveBox {
 	position: absolute;
@@ -333,6 +418,7 @@ div p {
 	position: absolute;
 	left: 820px;
 	top: 1730px;
+	display: none;
 }
 /**** footer ***/
 footer {
